@@ -174,7 +174,15 @@ Nombre: Milagros Chalbaud
 student_id: milagros_1
 Escala: small
 Job: bigdata_milagros_1_silver_gold
-Captura del DAG: bronze → silver → gold → validation.
+Captura del DAG:
+
+### DAG del Job
+
+![DAG del Job](dag_job.png)
+
+### Ejecuciones del Job
+
+![Ejecuciones exitosas del Job](ejecuciones_job.png)
 
 Resultados de ejecución
 Se ejecutó el pipeline con batch_002 y luego se realizó una segunda
