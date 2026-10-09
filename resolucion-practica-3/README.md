@@ -1,4 +1,7 @@
+## Credenciales 
+
 student_id = milagros_1
+
 scale = small
 
 ## Preguntas
@@ -43,18 +46,5 @@ Las preguntas son cortas: buscan comprobar que entendiste la idea de cada modelo
 19. ¿Cuánto ocupan los datos en CSV, JSON y Parquet? ¿Qué columnas leyó Spark para la consulta de `amount` sobre Parquet (`ReadSchema`)? ¿Cuántos archivos se pueden saltear con los datos ordenados?
 20. ¿Por qué el formato columnar es bueno para analítica y poco conveniente para modificar una fila por vez?
 
-## Entrega
 
-La publicación, el acceso público y el envío a los profesores siguen el [formato común de entrega](../README.md#formato-común-de-entrega).
-
-La entrega es **un único `README.md`** con las respuestas a las 20 preguntas, dentro de `resolucion-practica-3/` en tu repositorio personal:
-
-```text
-resolucion-practica-3/
-└── README.md
-```
-
-El README debe incluir nombre, `student_id` y escala. Podés partir de la [plantilla](PLANTILLA_ENTREGA.md). No hace falta exportar los notebooks.
-
-No incluyas datos generados, archivos del volumen, credenciales ni tokens.
 
