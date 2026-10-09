@@ -481,8 +481,7 @@ Visualizaciones orientadas a preguntas
 1. Evolución temporal
 Pregunta: ¿Qué día tuvo el mayor monto vendido y ese día también fue
 el de mayor cantidad de transacciones?
-Insertar aquí la visualización de la Consigna 1 de
-05_visualizacion.ipynb.
+ ![Visualización 1 - Evolución diaria](visualizacion_1.png)
 
 Respuesta: El 1 de marzo de 2026 fue el día con el mayor monto
 vendido (7.310.840,77) y también registró la mayor cantidad de
@@ -492,8 +491,8 @@ no necesariamente por un aumento excepcional del ticket promedio.
 2. Canal y fraude
 Pregunta: ¿Qué canal de pago presenta la mayor tasa de fraude? ¿La
 conclusión se sostiene al considerar el número de transacciones?
-Insertar aquí la visualización de la Consigna 2 de
-05_visualizacion.ipynb.
+
+![Visualización 2 - Fraude por canal de pago](visualizacion_2.png)
 
 Respuesta: transfer presenta la mayor tasa de fraude, con
 13,91%, seguido por wallet (12,97%) y card (12,54%). Los tres
@@ -503,8 +502,7 @@ de los grupos.
 3. Concentración geográfica y de producto
 Pregunta: ¿Qué combinación de país y categoría genera el mayor
 monto? ¿Existe una categoría dominante en todos los países?
-Insertar aquí la visualización de la Consigna 3 de
-05_visualizacion.ipynb.
+![Visualización 3 - Monto vendido por país y categoría](visualizacion_3.png)
 
 Respuesta: La combinación Brasil + home genera el mayor monto
 vendido, con 2.361.959,97. No existe una única categoría dominante:
@@ -516,8 +514,7 @@ para el monto.
 4. Calidad del pipeline
 Pregunta: ¿Qué proporción de cada lote fue aceptada y rechazada? ¿El
 lote nuevo presenta una calidad diferente del lote inicial?
-Insertar aquí la visualización de la Consigna 4 de
-05_visualizacion.ipynb.
+![Visualización 4 - Calidad por lote](visualizacion_4.png)
 
 Respuesta: batch_002 y batch_003 presentan una aceptación del
 99,01% y un rechazo del 0,99%, mientras que el lote initial
@@ -526,6 +523,7 @@ debe interpretarse teniendo en cuenta el tamaño de los lotes: initial
 contiene 49.999 registros, mientras que los nuevos contienen alrededor
 de 200, por lo que unos pocos rechazos producen un impacto porcentual
 mucho mayor.
+
 Cierre
 La práctica permitió implementar un flujo completo Bronze → Silver →
 Gold con ingesta incremental, reglas de calidad, cuarentena,
