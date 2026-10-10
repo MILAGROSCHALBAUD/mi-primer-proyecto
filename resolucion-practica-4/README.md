@@ -93,8 +93,5 @@ codigo:
 
 El log de CDC conserva el historial de cambios y permite conocer operaciones y estados anteriores, mientras que la tabla actual muestra únicamente el estado final de cada registro.
 
-## Cierre
 
-**20.**
-Elegiría Spark Structured Streaming cuando ya trabajo con Spark y necesito integrar procesamiento batch y streaming a gran escala; su ventaja es la integración con el ecosistema Spark. Flink es conveniente para streaming de baja latencia y procesamiento avanzado basado en eventos, destacándose por su manejo de estado y event time. Kafka Streams es una buena opción para aplicaciones que ya utilizan Kafka y necesitan procesamiento liviano directamente sobre sus topics, con la ventaja de integrarse de forma nativa con Kafka.
 
